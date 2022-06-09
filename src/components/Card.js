@@ -11,7 +11,7 @@ export default function Card() {
                     <p className="card-rating-info">
                     <span><img className="card-rating-star" src={star}/> 5.0 (6)</span> · USA
                     </p>
-                    <p className="card-title">Life lessons with Katie Zaferes fhghfsggfggfwefg</p>
+                    <p className="card-title">Life lessons with Katie Zaferes</p>
                     <p> <span className="card-price">From $136 </span>/ person</p>
                 </div>
             </div>
