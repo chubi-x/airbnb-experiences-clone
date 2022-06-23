@@ -9,6 +9,7 @@ export default function App() {
         <div>
             <Navbar />
             <Hero />
+            <div className="card-container">
             {
                 React.Children.toArray(
                     experiences.map((item)=>(
@@ -25,6 +26,7 @@ export default function App() {
                     ))
                 )
             }
+            </div>
             
         </div>
     )

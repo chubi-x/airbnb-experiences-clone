@@ -45,6 +45,10 @@ nav {
 }
 .card-container{
   padding: 20px;
+  display: flex;
+}
+.card{
+  margin:10px;
 }
 .card-status{
   font-size: 10px;

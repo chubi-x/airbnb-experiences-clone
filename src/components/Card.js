@@ -3,7 +3,7 @@ import katie_img from "../images/katie.png"
 import star from "../images/star.png"
 export default function Card(props) {
     return (
-       <div className="card-container">
+       <div>
             <div className="card">
                 <div className="card-status">{props.status}</div>
                 <img className="card-image" src= {katie_img} alt="experience"/>
