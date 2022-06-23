@@ -57,6 +57,7 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
+  text-transform: uppercase;
 }
 .card-image{
   border-radius: 9px;
