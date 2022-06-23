@@ -1,0 +1,86 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+nav {
+  height: 70px;
+  display: flex;
+  padding: 20px 36px;
+  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+}
+
+.nav--logo {
+  max-width: 100px;
+}
+
+
+.hero {
+  display: flex;
+  flex-direction: column;
+}
+
+.hero--photo {
+  width: 100%;
+}
+.hero--container{
+  max-width: 800px;
+  min-width: 200px;
+  align-self: center;
+
+}
+
+.hero--header {
+  font-size: 2rem;
+  margin-bottom: 16px;
+}
+
+.hero--text {
+  min-width: 200px;
+  margin-top: 0;
+}
+.card-container{
+  padding: 20px;
+}
+.card-status{
+  font-size: 10px;
+  position: relative;
+  left: 15px;
+  top: 22px;
+  width: 60px;
+  height: 20px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+}
+.card-image{
+  border-radius: 9px;
+  width: 176px;
+  height: 235px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.card-info{
+  width: 100%;
+  font-size: 12px;
+}
+.card-info p{
+  margin: 6px;
+}
+.card-title{
+  width: 100%;
+}
+.card-rating-info{
+  margin-top: 5px;
+}
+.card-rating-star{
+  height: 10px;
+}
+.card-price{
+  font-weight: bold;
+}
