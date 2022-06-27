@@ -65,6 +65,7 @@ nav {
   justify-content: center;
   align-items: center;
   text-transform: uppercase;
+  border-radius:5px;
 }
 .card-image{
   border-radius: 9px;
