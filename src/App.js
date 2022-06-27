@@ -11,9 +11,9 @@ export default function App() {
             <Hero />
             <div className="card-container">
             {
-                React.Children.toArray(
                     data.map((item)=>(
                         <Card
+                        key = {item.id}
                         title = {item.title}
                         price =  {item.price}
                         rating = {item.stats.rating}
@@ -23,7 +23,7 @@ export default function App() {
                         openSpots = {item.openSpots}
                     />
                     ))
-                )
+                
             }
             </div>
             
