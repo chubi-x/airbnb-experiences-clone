@@ -51,13 +51,13 @@ nav {
 }
 .card{
   margin:10px;
-
+  position: relative;
 }
 .card-status{
   font-size: 10px;
-  position: relative;
-  left: 15px;
-  top: 22px;
+  position: absolute;
+  left: 10px;
+  top: 7px;
   width: 60px;
   height: 20px;
   background-color: white;
