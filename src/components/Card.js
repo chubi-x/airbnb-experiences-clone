@@ -2,10 +2,14 @@ import React from "react"
 import star from "../images/star.png"
 
 export default function Card(props) {
+    let badgeText;
+    if (props.openSpots ===0) badgeText = 'Sold out'
+    else if(props.location ==="Online") badgeText = "online"
+    
     return (
        <div>
             <div className="card">
-                <div className="card-status">{props.openSpots == 0 ? 'SOLD OUT' : 'AVAILABLE'}</div>
+               { badgeText && <div className="card-status">{badgeText}</div>}
                 <img className="card-image" src= {process.env.PUBLIC_URL + "images/"+ props.image} alt="experience"/>
                 <div className="card-info">
                     <p className="card-rating-info">
