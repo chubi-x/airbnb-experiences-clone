@@ -14,13 +14,7 @@ export default function App() {
                     data.map((item)=>(
                         <Card
                         key = {item.id}
-                        title = {item.title}
-                        price =  {item.price}
-                        rating = {item.stats.rating}
-                        reviews = {item.stats.reviewCount}
-                        image = {item.coverImg}
-                        location= {item.location}
-                        openSpots = {item.openSpots}
+                        item = {item}
                     />
                     ))
                 
