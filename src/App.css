@@ -18,6 +18,10 @@ nav {
   max-width: 100px;
 }
 
+.hero-container {
+  display: flex;
+  justify-content: center;
+}
 
 .hero {
   display: flex;
@@ -27,7 +31,8 @@ nav {
 .hero--photo {
   width: 100%;
 }
-.hero--container{
+
+.hero-img-container {
   max-width: 800px;
   min-width: 200px;
   align-self: center;
@@ -43,17 +48,21 @@ nav {
   min-width: 200px;
   margin-top: 0;
 }
-.card-container{
+
+.card-container {
   padding: 20px;
   display: flex;
+  justify-content: center;
   flex-wrap: nowrap;
   overflow-y: auto;
 }
-.card{
-  margin:10px;
+
+.card {
+  margin: 10px;
   position: relative;
 }
-.card-status{
+
+.card-status {
   font-size: 10px;
   position: absolute;
   left: 10px;
@@ -65,32 +74,39 @@ nav {
   justify-content: center;
   align-items: center;
   text-transform: uppercase;
-  border-radius:5px;
+  border-radius: 5px;
 }
-.card-image{
+
+.card-image {
   border-radius: 9px;
   width: 176px;
   height: 235px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
-.card-info{
+
+.card-info {
   width: 100%;
   font-size: 12px;
 }
-.card-info p{
+
+.card-info p {
   margin: 6px;
 }
-.card-title{
+
+.card-title {
   width: 100%;
   overflow: hidden;
   text-overflow: ellipsis;
 }
-.card-rating-info{
+
+.card-rating-info {
   margin-top: 5px;
 }
-.card-rating-star{
+
+.card-rating-star {
   height: 10px;
 }
-.card-price{
+
+.card-price {
   font-weight: bold;
 }
